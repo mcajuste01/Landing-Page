@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="../cd0428-landing-page-main/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>King Moves - End of Quarter Post</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing__container">
+        <h2>🌻 September: Service and Impacting Your Community 🤝🌍✨</h2>
+        <p>Hello, dear friends! As September begins, our hearts are filled with a desire to make a positive impact in the world around us. This month, we're embracing the power of service and the profound joy that comes from impacting our communities. Let's be the hands and feet of Jesus and make a lasting difference together! 🙌💕
+            God calls us to love one another and extend a helping hand to those in need. Through acts of service, we embody the values of compassion, kindness, and generosity. So, let's explore the ways we can make a positive impact in our communities, both near and far.</p>
+        <p>Join me as we delve into heartfelt conversations about community engagement, acts of kindness, and meaningful service initiatives. We'll share inspiring stories of people who have stepped up to make a difference, and we'll discuss practical ways you can get involved.
+          Remember, you have unique gifts and talents that can brighten someone's day and transform lives. By being intentional in our service, we become vessels of love, hope, and positive change. Let's unleash our potential to create a world filled with compassion, unity, and justice.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>🍂 October: Time Management and Prioritization 📆⏰✨</h2>
+        <p>Hey there, amazing souls! As the leaves change color and a new season unfolds, it's time to dive into the art of time management and prioritization. This October, we're embracing the gift of time and learning how to make the most of each precious moment. Join me on this journey of intentional living! 🍁⏳💫
+          God has blessed us with the gift of time, and it's up to us to steward it wisely. Let's explore practical strategies for managing our time effectively, setting priorities, and creating a life that aligns with God's purpose for us. Together, we'll navigate the demands of daily life and find balance in the midst of busyness.</p>
+        <p>Join me as we delve into conversations about time management techniques, productivity hacks, and finding rhythm in our routines. Let's share personal stories, tips, and insights on how to make room for what truly matters. By honoring our time, we can cultivate a life that reflects our values and enables us to pursue our dreams.
+          Remember, time is a precious resource, and how we use it shapes our legacy. Let's commit to being intentional with our time, embracing moments of rest, and investing in what truly brings us joy and fulfillment. By making mindful choices, we can create a life of purpose, productivity, and inner peace.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>🍁 November: Personal Growth and Self-Improvement 🌱💪✨</h2>
+        <p>Hello, growth-seeking Kings and Queens! As we embrace the month of November, it's time to embark on a journey of personal growth and self-improvement. This is the perfect time to invest in ourselves and nurture our potential. Let's step into our greatness together! 🌻🌟📚
+          God has placed within us an incredible capacity for growth and development. This month, we'll explore ways to cultivate a growth mindset, expand our knowledge, and overcome personal barriers. Let's dive deep into conversations about self-reflection, goal-setting, and the power of continuous learning.</p>
+        <p>Join me as we uncover practical strategies, share inspiring stories, and learn from experts who have navigated the path of personal growth. Whether it's in our relationships, careers, or spiritual journey, let's commit to becoming the best version of ourselves and making a positive impact in the world.
+          Remember, personal growth is a lifelong journey, and each step we take brings us closer to unlocking our full potential. Let's embrace challenges, seek new perspectives, and step outside of our comfort zones. By investing in our own growth, we become catalysts for transformation in all areas of our lives.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>🎉 December: Reflecting on the Year and Preparing for the Next One 📆🌟✨</h2>
+        <p>Hello, dear friends! As December unfolds, it's time to pause and reflect on the year that's gone by and prepare for the new one ahead. This month, we'll embrace the beauty of introspection, gratitude, and anticipation. Join me as we celebrate the journey and set our sights on a bright future! 🎊🎄✨
+          God has guided us through every step of this year, and now it's time to honor the lessons learned, the growth experienced, and the blessings received. Let's take this opportunity to reflect on our accomplishments, express gratitude for the journey, and set intentions for the upcoming year.</p>
+        <p>Join me as we engage in heartfelt conversations, share personal stories of triumph and resilience, and explore practical ways to celebrate the milestones and learn from the challenges. Together, we'll create a space of reflection, celebration, and preparation as we embark on a new chapter.
+          Remember, the end of one year marks the beginning of a new adventure. As we reflect on the past, let's also look forward with hope and excitement. Let's dream big, set goals, and trust in God's guidance for the journey ahead. The best is yet to come!</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy; Udacity</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
